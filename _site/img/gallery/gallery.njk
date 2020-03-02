@@ -1,0 +1,27 @@
+---
+layout: tataletak.njk
+images:
+ - war.png
+ - Warrior.png
+ - wraith.png
+---
+
+<h3>Gallery saya</h3>
+
+<div class="baris">
+	<div class="kolom">
+		{% for filename in images %}
+			<img src="{{ filename }}" style="width:100%">
+		{% endfor %} 
+	</div>
+	<div class="kolom">
+		{% for filename in images %}
+			<img src="{{ filename }}" style="width:100%">
+		{% endfor %} 
+	</div>
+	<div class="kolom">
+		{% for filename in images %}
+			<img src="{{ filename }}" style="width:100%">
+		{% endfor %} 
+	</div>
+</div>
